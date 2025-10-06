@@ -1,52 +1,68 @@
-# Hi there 👋, I'm Murali
+<h1 align="center">Hi there , I'm Murali</h1>
 
-Third-year **Computer Science student at IIT Palakkad**.
-Passionate about **algorithms, AI/ML, and system development**.  
-Currently working on **Explainable AI, Cognitive Learning Tools, and Quantum Graph Neural Networks**.  
-Goal: To build impactful projects at the intersection of **AI, systems, and deep tech**.  
-
----
-
-## Tech Stack
-- **Languages**: C, C++, Python, JavaScript, Bash, Haskell  
-- **Frameworks & Libraries**: PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, Mediapipe  
-- **Data & Visualization**: NumPy, Pandas, Matplotlib  
-- **Web Development**: HTML, CSS, JavaScript, Express, React  
-- **Hardware & Embedded Systems**: Arduino, ESP32, XBee, Fusion 360, KiCad  
-- **Tools**: Git, Docker, Linux  
+<p align="center">
+Third-year <b>Computer Science student at IIT Palakkad</b><br>
+Passionate about <b>Algorithms, AI/ML, and System Development</b><br>
+Currently working on <b>Explainable AI, Cognitive Learning Tools, and Quantum Graph Neural Networks</b><br>
+Goal: To build impactful projects at the intersection of <b>AI, Systems, and Deep Tech</b>
+</p>
 
 ---
 
-## Featured Projects
-- 🔗 [PeliCAM](https://github.com/SreenathKarthick11/PeliCAM) – Explainable AI tool with CAM, LIME, SHAP (DRDO Internship)  
-- 🔗 [Slope Motion System](https://github.com/Murali47k/Slope_Motion_System) – Educational cognition project (TIFR Internship)  
-- 🔗 [Moon Mapping - ISRO Data Analysis](https://github.com/enchanteddev/MoonViewer) – XRF spectrum data analysis & lunar albedo visualization  
-- 🔗 [X-Ray Analyser](https://github.com/SreenathKarthick11/X_Ray_Analyser) – CNN-based fracture detection system  
-- 🔗 [Hi-ena](https://github.com/Murali47k/Hi-ena) – Secure local chat & file sharing system  
-- 🔗 [Voico-Bot](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with Arduino + Web interface  
-- 🔗 [Tourism Web](https://github.com/Murali47k/Tourism-Web) – Interactive travel website  
-- 🔗 [IRL Dino Game](https://github.com/Murali47k/DINO-GAME-IRL) – Real-life Dino game using OpenCV & gesture recognition  
+## ⚡ Tech Stack  
+<p align="center">
+  <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+</p>
+
+---
+
+## 📌 Featured Projects
+- 🔗 [**PeliCAM**](https://github.com/SreenathKarthick11/PeliCAM) – Explainable AI tool with CAM, LIME, SHAP (DRDO Internship)  
+- 🔗 [**Slope Motion System**](https://github.com/Murali47k/Slope_Motion_System) – Cognitive learning project (TIFR Internship)  
+- 🔗 [**Moon Mapping (ISRO Data Analysis)**](https://github.com/enchanteddev/MoonViewer) – XRF data analysis & lunar albedo visualization  
+- 🔗 [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser) – CNN-based medical imaging tool  
+- 🔗 [**Hi-ena**](https://github.com/Murali47k/Hi-ena) – Secure local chat & file sharing system  
+- 🔗 [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with Arduino + Web interface  
+- 🔗 [**Tourism Web**](https://github.com/Murali47k/Tourism-Web) – Interactive travel website  
+- 🔗 [**IRL Dino Game**](https://github.com/Murali47k/DINO-GAME-IRL) – Real-life Dino game using OpenCV  
 
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Murali47k&show_icons=true&theme=radical)  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Murali47k&show_icons=true&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Murali47k&layout=compact&theme=radical" height="160"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Murali47k&layout=compact&theme=radical)  
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Murali47k&theme=radical)  
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Murali47k&theme=radical" height="160"/>
+</p>
 
 ---
 
 ## 🏆 Achievements
-- **8th Place** – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)  
+- 🏅 **8th Place** – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)  
 
 ---
 
-## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/murali-karthick-59a250288/)  
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/Murali47k)  
+## 🌐 Connect with Me  
+<p align="center">
+  <a href="https://www.linkedin.com/in/murali-karthick-59a250288/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Murali47k">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-✨ *“Motivated by real-world challenges, I aim to contribute to impactful projects and continuously expand my skills.”*  
+<p align="center">
+✨ <i>"Motivated by real-world challenges, I aim to contribute to impactful projects and continuously expand my skills."</i> ✨
+</p>
