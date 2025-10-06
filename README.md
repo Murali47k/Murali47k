@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Murali
 
-Third-year **Computer Science student at IIT Palakkad** with a CGPA of **9.38/10**.  
+Third-year **Computer Science student at IIT Palakkad**.
 Passionate about **algorithms, AI/ML, and system development**.  
 Currently working on **Explainable AI, Cognitive Learning Tools, and Quantum Graph Neural Networks**.  
 Goal: To build impactful projects at the intersection of **AI, systems, and deep tech**.  
