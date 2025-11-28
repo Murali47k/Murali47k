@@ -47,7 +47,8 @@ Goal: To build impactful projects at the intersection of <b>AI, Systems, and Dee
 ---
 
 ## 🏆 Achievements
-- 🏅 **8th Place** – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)  
+- 🏅 **8th Place** – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)
+-  🏅 **top 15** – Inspace Rocketry Competition (ISRO , Inspace and Astronoimcal Society of India)
 
 ---
 
