@@ -264,9 +264,9 @@ a:hover {
 }
 
 .project-card {
-    min-width: calc(33.333% - 20px); /* Show 3 cards with gaps */
+    max-width: calc(33.333% - 20px);
+    min-width: calc(33.333% - 20px);
     height: 400px; /* Fixed height for consistency */
-    max-width: 500px;
     position: relative;
     overflow: hidden;
     border-radius: var(--border-radius);
