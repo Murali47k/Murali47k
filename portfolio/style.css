@@ -1,0 +1,459 @@
+/* Base Styles */
+:root {
+    --primary-color: #004f90; /* Darker blue from your CV primaryColor */
+    --secondary-color: #f0f4f8; /* Light background for sections */
+    --text-color: #333;
+    --light-text: #fefefe;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-text);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0079c6; /* Lighter hover color */
+}
+
+/* Header/Navigation */
+.header {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 1.2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+}
+
+.header .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--light-text);
+}
+
+.header .navbar a {
+    margin-left: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--light-text);
+    position: relative;
+}
+
+.header .navbar a:hover {
+    color: #ffd700; /* Gold highlight on hover */
+}
+
+.header .navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700;
+    transition: width 0.3s ease;
+}
+
+.header .navbar a:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    padding: 10rem 5% 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 55%;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.hero-content .tagline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    max-width: 40%;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.social-links a {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: var(--primary-color);
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+}
+
+/* General Section Styles */
+.section {
+    padding: 4rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 2.5rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.subsection-title {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 1.5rem 0 1rem 0;
+}
+
+/* About Section */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+.education-item {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.education-item .detail {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.achievements-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.achievements-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Experience Section (Timeline) */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 4px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 5px;
+    left: 44px;
+    width: 16px;
+    height: 16px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.timeline-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.timeline-content .company {
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Projects Section (Carousel/Slider) */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* This makes 3 cards visible at once */
+    gap: 30px; 
+}
+
+.project-card {
+    min-width: calc(33.333% - 20px); /* Show 3 cards with gaps */
+    height: 400px; /* Fixed height for consistency */
+    max-width: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    flex-shrink: 0;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Overlay Style */
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75); /* Low opacity black */
+    color: var(--light-text); /* White text */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.4s ease;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1; /* Show on hover */
+}
+
+.project-overlay h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-overlay p {
+    margin-bottom: 15px;
+}
+
+.project-overlay .project-link {
+    color: #90d8ff;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.project-overlay .tools {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Carousel Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0);
+    color: var(--light-text);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 10;
+    border-radius: 100%;
+    transition: background 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Skills Section */
+.skills-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-bar span {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer/Connect Section */
+.connect-section {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+    padding: 3rem 5%;
+}
+
+.connect-section h2 {
+    color: var(--light-text);
+    border-bottom-color: var(--light-text);
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.contact-info a {
+    color: var(--light-text);
+    text-decoration: underline;
+}
+
+.social-links-footer {
+    margin-top: 2rem;
+}
+
+.social-links-footer a {
+    font-size: 1.2rem;
+    color: var(--light-text);
+    margin: 0 15px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.social-links-footer a:hover {
+    color: #ffd700;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .project-card {
+        min-width: calc(50% - 15px); /* Show 2 cards on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 1.2rem 5%;
+    }
+    .header .navbar {
+        display: none; /* Can implement a hamburger menu, but hiding for simplicity */
+    }
+    
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 6rem;
+    }
+    
+    .hero-content, .hero-image {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .timeline::before {
+        left: 15px;
+    }
+    .timeline-item {
+        padding-left: 30px;
+    }
+    .timeline-dot {
+        left: 9px;
+    }
+
+    .project-card {
+        min-width: 100%; /* Show 1 card on small screens */
+    }
+}
