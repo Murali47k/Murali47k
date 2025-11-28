@@ -9,6 +9,10 @@ Goal: To build impactful projects at the intersection of <b>AI, Systems, and Dee
 
 ---
 
+🔗 [**Portfolio**](https://murali47k.github.io/Murali47k/)
+
+---
+
 ## ⚡ Tech Stack  
 <p align="center">
   <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white"/>
