@@ -28,13 +28,17 @@ Goal: To build impactful projects at the intersection of <b>AI, Systems, and Dee
 
 ## 📌 Featured Projects
 - 🔗 [**PeliCAM**](https://github.com/SreenathKarthick11/PeliCAM) – Explainable AI tool with CAM, LIME, SHAP (DRDO Internship)  
-- 🔗 [**Slope Motion System**](https://github.com/Murali47k/Slope_Motion_System) – Cognitive learning project (TIFR Internship)  
-- 🔗 [**Moon Mapping (ISRO Data Analysis)**](https://github.com/enchanteddev/MoonViewer) – XRF data analysis & lunar albedo visualization  
+- 🔗 [**Slope Motion System**](https://github.com/Murali47k/Slope_Motion_System) – Cognitive learning project (TIFR Internship)
+- 🔗 [**QML - Link Prediction**](https://github.com/Simeonk1307/quantumML) - Quantum Link Prediction : Research Under NYU Abu Dhabi (OELP project)
+- 🔗 [**newhope-kex**](https://github.com/Simeonk1307/Post-Quantum-Cryptography) - Post Quantum Cryptography implementation of newhope (OELP project)
+- 🔗 [**Tiger - Compiler**](https://gitlab.com/Murali47k/112301019-Compiler) - Compiler using Ocaml to convert Tiger Language to MIPS
+- 🔗 [**Moon Mapping (ISRO Data Analysis)**](https://github.com/enchanteddev/MoonViewer) – XRF data analysis & lunar albedo visualization
 - 🔗 [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser) – CNN-based medical imaging tool  
 - 🔗 [**Hi-ena**](https://github.com/Murali47k/Hi-ena) – Secure local chat & file sharing system  
 - 🔗 [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with Arduino + Web interface  
 - 🔗 [**Tourism Web**](https://github.com/Murali47k/Tourism-Web) – Interactive travel website  
-- 🔗 [**IRL Dino Game**](https://github.com/Murali47k/DINO-GAME-IRL) – Real-life Dino game using OpenCV  
+- 🔗 [**IRL Dino Game**](https://github.com/Murali47k/DINO-GAME-IRL) – Real-life Dino game using OpenCV
+
 
 ---
 
