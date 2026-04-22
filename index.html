@@ -1,211 +1,588 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M Murali Karthick | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Murali Karthick — CS @ IIT Palakkad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@300;400;500;600&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <header class="header">
-        <a href="#" class="logo">Murali</a>
-        <nav class="navbar">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#connect">Connect</a>
-        </nav>
-    </header>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav-logo">MK</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#papers">Papers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
 
-    <section class="hero-section" id="home">
-        <div class="hero-content">
-            <h1 class="animate__animated animate__fadeInDown">Hi there, I'm Murali Karthick</h1>
-            <p class="tagline animate__animated animate__fadeInUp">Third-year Computer Science student at IIT Palakkad</p>
-            <p class="description animate__animated animate__fadeInUp animate__delay-1s">
-                Passionate about Algorithms, AI/ML, and System Development. <br>
-                Currently working on Explainable AI, Cognitive Learning Tools, and Quantum Graph Neural Networks.
-            </p>
-            <div class="social-links animate__animated animate__fadeInUp animate__delay-2s">
-                <a href="https://www.linkedin.com/in/murali-karthick-59a250288/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Murali47k" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:murali47karthick@gmail.com"><i class="fas fa-envelope"></i></a>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mm-link">About</a>
+    <a href="#experience" class="mm-link">Experience</a>
+    <a href="#projects" class="mm-link">Projects</a>
+    <a href="#papers" class="mm-link">Papers</a>
+    <a href="#contact" class="mm-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="dot-pulse"></span>
+        IIT Palakkad &nbsp;·&nbsp; Computer Science &nbsp;·&nbsp; Class of 2027
+      </div>
+      <h1 class="hero-name">
+        <span class="hero-first">Murali</span>
+        <span class="hero-last">Karthick</span>
+      </h1>
+      <p class="hero-sub">
+        Researcher & Builder at the edge of<br/>
+        <em>Explainable AI · Quantum ML · Systems</em>
+      </p>
+      <div class="hero-chips">
+        <span class="chip">DRDO Intern</span>
+        <span class="chip">TIFR Intern</span>
+        <span class="chip">NYU Abu Dhabi · OELP</span>
+        <span class="chip">CGPA 9.38</span>
+      </div>
+      <div class="hero-actions">
+        <a href="https://murali47k.github.io/Murali47k/" target="_blank" class="btn btn-primary">Portfolio ↗</a>
+        <a href="https://github.com/Murali47k" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://www.linkedin.com/in/murali-karthick-59a250288/" target="_blank" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-photo-wrap">
+        <img src="images/murali_personal.jpeg" alt="Murali Karthick" class="hero-photo"/>
+        <div class="hero-photo-ring"></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-band reveal">
+    <div class="stat">
+      <span class="stat-n">12+</span>
+      <span class="stat-l">Projects</span>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat">
+      <span class="stat-n">2</span>
+      <span class="stat-l">Research Internships</span>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat">
+      <span class="stat-n">#8</span>
+      <span class="stat-l">Inter IIT Tech Meet</span>
+    </div>
+    <div class="stat-div"></div>
+    <div class="stat">
+      <span class="stat-n">Top&nbsp;15</span>
+      <span class="stat-l">ISRO Rocketry</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-label reveal">01 &nbsp;/&nbsp; About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-heading">A systems thinker<br/><em>obsessed with clarity.</em></h2>
+          <p>I'm a third-year CS student at IIT Palakkad (CGPA 9.38) with a deep interest in making AI systems both powerful and interpretable. My work spans from low-level compilers and cryptography to quantum-enhanced neural networks and cognitive education tools.</p>
+          <p>I thrive at the boundary between theory and engineering — building things that not only work, but can be understood and trusted.</p>
+          <div class="about-edu">
+            <div class="edu-item">
+              <span class="edu-org">Indian Institute of Technology Palakkad</span>
+              <span class="edu-detail">B.Tech · Computer Science &nbsp;·&nbsp; 2023–2027 &nbsp;·&nbsp; CGPA 9.38</span>
             </div>
+            <div class="edu-item">
+              <span class="edu-org">Gregorian Public School</span>
+              <span class="edu-detail">Class XII · 96% &nbsp;&nbsp;|&nbsp;&nbsp; Class X · 97.6%</span>
+            </div>
+          </div>
         </div>
-        <div class="hero-image animate__animated animate__fadeInRight">
-            <img src="images/murali_personal.jpeg" alt="Murali Karthick Personal Photo">
+        <div class="about-right reveal">
+          <div class="achievements-card">
+            <div class="ach-header">Achievements</div>
+            <div class="ach-item">
+              <span class="ach-rank">#8</span>
+              <div>
+                <div class="ach-title">Inter IIT Tech Meet 13th Ed.</div>
+                <div class="ach-desc">ISRO Problem Statement · IIT Bombay</div>
+              </div>
+            </div>
+            <div class="ach-item">
+              <span class="ach-rank" style="color:var(--green)">#13</span>
+              <div>
+                <div class="ach-title">InSpace Rocketry Competition</div>
+                <div class="ach-desc">Ground Station Lead · ISRO · IN-SPACe · ASI</div>
+              </div>
+            </div>
+            <div class="ach-item">
+              <span class="ach-rank" style="color:var(--muted);font-size:1.1rem">★</span>
+              <div>
+                <div class="ach-title">Media & Publicity Head</div>
+                <div class="ach-desc">Petrichor '25 · Annual Fest of IIT Palakkad</div>
+              </div>
+            </div>
+          </div>
+          <div class="stack-card">
+            <div class="stack-row">
+              <span class="stack-label">Languages</span>
+              <div class="stack-tags">
+                <span>C</span><span>C++</span><span>Python</span><span>JavaScript</span><span>OCaml</span><span>Bash</span>
+              </div>
+            </div>
+            <div class="stack-row">
+              <span class="stack-label">AI / ML</span>
+              <div class="stack-tags">
+                <span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>OpenCV</span><span>Pennylane</span>
+              </div>
+            </div>
+            <div class="stack-row">
+              <span class="stack-label">Systems</span>
+              <div class="stack-tags">
+                <span>Linux</span><span>Arduino</span><span>ESP32</span><span>XBee</span><span>Git</span>
+              </div>
+            </div>
+            <div class="stack-row">
+              <span class="stack-label">Web</span>
+              <div class="stack-tags">
+                <span>HTML/CSS</span><span>JS</span><span>Express</span><span>Node</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="section" id="about">
-        <h2><i class="fas fa-user-circle"></i> About Me</h2>
-        <p>I am a third-year Computer Science student with a strong passion for problem-solving and innovation. I thrive in collaborative environments and am dedicated to learning and adapting to new technologies. Motivated by real-world challenges, I aim to contribute to impactful projects and continuously expand my skills to drive progress in the tech field.</p>
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <div class="section-label reveal">02 &nbsp;/&nbsp; Experience</div>
+      <h2 class="section-heading reveal">Where I've<br/><em>done the work.</em></h2>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <span class="tl-period">2025 – 2026</span>
+          </div>
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-content">
+            <div class="tl-role">Research Collaborator · OELP</div>
+            <div class="tl-org">NYU Abu Dhabi &nbsp;·&nbsp; Open Ended Lab Project</div>
+            <ul class="tl-points">
+              <li>Developed quantum-enhanced link prediction model (A2QTGN) using Adaptive Amplitude Embedding with Temporal GNN architecture.</li>
+              <li>Implemented NewHope post-quantum key exchange protocol as a companion cryptography project.</li>
+            </ul>
+            <div class="tl-tags"><span>Quantum ML</span><span>Pennylane</span><span>PyTorch</span><span>Cryptography</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <span class="tl-period">May – Jul 2025</span>
+          </div>
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-content">
+            <div class="tl-role">Research Intern</div>
+            <div class="tl-org">Defence Research and Development Organisation (DRDO · DYSL-CT) &nbsp;·&nbsp; Chennai</div>
+            <ul class="tl-points">
+              <li>Worked on Explainable AI — LIME, SHAP, and CAM techniques for neural network interpretability.</li>
+              <li>Developed CAM analysis software (PeliCAM) for visualising deep learning model decisions.</li>
+              <li>Contributed to text classification systems for English and Indian languages.</li>
+            </ul>
+            <div class="tl-tags"><span>XAI</span><span>PyTorch</span><span>Python</span><span>PyQt</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <span class="tl-period">Feb 2025 – Dec 2025</span>
+          </div>
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-content">
+            <div class="tl-role">Software Intern</div>
+            <div class="tl-org">Tata Institute of Fundamental Research (TIFR) &nbsp;·&nbsp; Palakkad</div>
+            <ul class="tl-points">
+              <li>Contributing to an educational cognition project on children's mathematical thought processes.</li>
+              <li>Building the Slope Motion System — interactive web tools for concept-driven physics learning.</li>
+            </ul>
+            <div class="tl-tags"><span>Python</span><span>JavaScript</span><span>Express</span><span>EdTech</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-label reveal">03 &nbsp;/&nbsp; Projects</div>
+      <h2 class="section-heading reveal">Things I've<br/><em>built.</em></h2>
+
+      <!-- Research -->
+      <div class="proj-category reveal">Research & Advanced</div>
+      <div class="carousel-wrap">
+        <div class="carousel-track" id="track-research">
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">Research · DRDO</span>
+              <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">PeliCAM</h3>
+            <p class="proj-desc">Desktop application for deep learning interpretability — integrates CAM, LIME, and SHAP into a unified visual framework. Built at DRDO for defence AI auditing.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>XAI</span><span>PyTorch</span><span>PyQt</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank">GitHub</a>
+                <a href="https://sreenathkarthick11.github.io/PeliCAM-web/" target="_blank">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">Research · TIFR</span>
+              <a href="https://github.com/Murali47k/Slope_Motion_System" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Slope Motion System</h3>
+            <p class="proj-desc">Cognitive learning platform studying how children conceptualise physics. Motion-based interactive tools built in collaboration with TIFR researchers.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>EdTech</span><span>JS</span><span>Express</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Murali47k/Slope_Motion_System" target="_blank">GitHub</a>
+                <a href="https://slope-motion-system-m2.onrender.com/" target="_blank">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">Research · NYU Abu Dhabi</span>
+              <a href="https://github.com/Simeonk1307/quantumML" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">A2QTGN — Quantum Link Prediction</h3>
+            <p class="proj-desc">Novel quantum-enhanced link prediction model using Adaptive Amplitude Embedding with Temporal GNN architecture for complex graph networks.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Quantum ML</span><span>Pennylane</span><span>NetworkX</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Simeonk1307/quantumML" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">Research · OELP</span>
+              <a href="https://github.com/Simeonk1307/Post-Quantum-Cryptography" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Post-Quantum Cryptography</h3>
+            <p class="proj-desc">Full implementation of the NewHope lattice-based key exchange protocol — cryptographic security hardened against quantum adversaries.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Cryptography</span><span>Lattice</span><span>C</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Simeonk1307/Post-Quantum-Cryptography" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">Inter IIT · ISRO</span>
+              <a href="https://github.com/enchanteddev/MoonViewer" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Moon Mapping</h3>
+            <p class="proj-desc">XRF spectroscopy data pipeline on Chandrayaan mission data. Calculates elemental line ratios and renders an interactive lunar albedo visualisation.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Python</span><span>Pandas</span><span>Three.js</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/enchanteddev/MoonViewer" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type research">InSpace · ISRO</span>
+              <a href="#" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Rocketry Ground Station</h3>
+            <p class="proj-desc">Real-time ground station control system for a competition rocket. Receives and visualises telemetry data via a Python GUI built with PyQt5, Arduino, and XBee radio.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>PyQt5</span><span>Arduino</span><span>ESP32</span><span>XBee</span></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="car-btn" data-track="track-research" data-dir="-1">←</button>
+          <div class="car-dots" id="dots-research"></div>
+          <button class="car-btn" data-track="track-research" data-dir="1">→</button>
+        </div>
+      </div>
+
+      <!-- Course -->
+      <div class="proj-category reveal">Course Projects</div>
+      <div class="carousel-wrap">
+        <div class="carousel-track" id="track-course">
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type course">Compilers</span>
+              <a href="https://gitlab.com/Murali47k/112301019-Compiler" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Tiger Compiler</h3>
+            <p class="proj-desc">End-to-end compiler for the Tiger language in OCaml — lexer, parser, type-checker, IR lowering, and full MIPS assembly codegen.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>OCaml</span><span>MIPS</span><span>Compilers</span></div>
+              <div class="proj-links">
+                <a href="https://gitlab.com/Murali47k/112301019-Compiler" target="_blank">GitLab</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type course">Full Stack</span>
+              <a href="#" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Chess Platform</h3>
+            <p class="proj-desc">Full-stack multiplayer chess with real-time gameplay, move validation, persistent game state, and a clean responsive UI.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>React</span><span>Node</span><span>PostgreSQL</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/iotaARYAN21/chess-project" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type course">ML</span>
+              <a href="https://github.com/SreenathKarthick11/Stellar_ML" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Stellar ML</h3>
+            <p class="proj-desc">ML pipeline classifying stars, galaxies, and quasars from photometric and spectroscopic features using SDSS astronomical data.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Scikit-learn</span><span>Astropy</span><span>Python</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/SreenathKarthick11/Stellar_ML" target="_blank">GitHub</a>
+                <a href="https://sreenathkarthick11.github.io/Stellar_ML/" target="_blank">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type course">Medical AI</span>
+              <a href="https://github.com/SreenathKarthick11/X_Ray_Analyser" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">X-Ray Analyser</h3>
+            <p class="proj-desc">CNN diagnostic tool for chest X-ray analysis — identifying pulmonary anomalies with high sensitivity using deep convolutional features.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>CNN</span><span>TensorFlow</span><span>OpenCV</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/SreenathKarthick11/X_Ray_Analyser" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="car-btn" data-track="track-course" data-dir="-1">←</button>
+          <div class="car-dots" id="dots-course"></div>
+          <button class="car-btn" data-track="track-course" data-dir="1">→</button>
+        </div>
+      </div>
+
+      <!-- Personal -->
+      <div class="proj-category reveal">Personal Projects</div>
+      <div class="carousel-wrap">
+        <div class="carousel-track" id="track-personal">
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type personal">Networking</span>
+              <a href="https://github.com/Murali47k/Hi-ena" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Hi-ena</h3>
+            <p class="proj-desc">Secure local-network P2P file sharing and messaging — zero cloud dependency, encrypted end-to-end communication over LAN.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Python</span><span>Networking</span><span>Encryption</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Murali47k/Hi-ena" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type personal">IoT</span>
+              <a href="https://github.com/Murali47k/Voico-BOT" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Voico-Bot</h3>
+            <p class="proj-desc">Voice-controlled automation hub bridging Arduino hardware with a web interface — hands-free device and script control via natural speech.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>Arduino</span><span>Python</span><span>Web</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Murali47k/Voico-BOT" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type personal">Computer Vision</span>
+              <a href="https://github.com/Murali47k/DINO-GAME-IRL" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">IRL Dino Game</h3>
+            <p class="proj-desc">Real-world Chrome Dino via OpenCV pose detection — your body becomes the controller. Jump in real life, the dinosaur jumps on screen.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>OpenCV</span><span>Python</span><span>Pose</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Murali47k/DINO-GAME-IRL" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-card-top">
+              <span class="proj-type personal">Web</span>
+              <a href="https://github.com/Murali47k/Tourism-Web" target="_blank" class="proj-link-icon">↗</a>
+            </div>
+            <h3 class="proj-name">Tourism Web</h3>
+            <p class="proj-desc">Interactive travel and exploration website with curated destination guides, immersive visuals, and a discovery-focused user experience.</p>
+            <div class="proj-footer">
+              <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <div class="proj-links">
+                <a href="https://github.com/Murali47k/Tourism-Web" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="car-btn" data-track="track-personal" data-dir="-1">←</button>
+          <div class="car-dots" id="dots-personal"></div>
+          <button class="car-btn" data-track="track-personal" data-dir="1">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAPERS -->
+  <section class="section section-alt" id="papers">
+    <div class="section-inner">
+      <div class="section-label reveal">04 &nbsp;/&nbsp; Publications</div>
+      <h2 class="section-heading reveal">Research<br/><em>Papers.</em></h2>
+
+      <div class="papers-list reveal">
+        <!-- PLACEHOLDER — fill in when ready -->
+        <div class="paper-item paper-placeholder">
+          <div class="paper-meta">
+            <span class="paper-status pending">Forthcoming</span>
+          </div>
+          <div class="paper-title">Paper title will appear here</div>
+          <div class="paper-authors">Murali Karthick et al.</div>
+          <div class="paper-venue">Venue / Conference / Journal · Year</div>
+          <p class="paper-placeholder-note">This section will be updated with publications as they are released.</p>
+        </div>
         
-        <div class="education-grid">
-            <div class="education-item">
-                <h3>Indian Institute of Technology Palakkad</h3>
-                <p>Btech in Computer Science | Aug 2023 – Apr 2027</p>
-                <p class="detail">CGPA: 9.38/10.0</p>
+        <div class="paper-item">
+            <div class="paper-meta">
+                <span class="paper-status published">Published</span>
             </div>
-            <div class="education-item">
-                <h3>Gregorian Public School</h3>
-                <p>Class XII (AISSCE): 96%</p>
-                <p class="detail">Class X (AISSE): 97.6%</p>
+            <div class="paper-title">
+                Chaining Embodied Learning: A System to Help Develop an Integrated Understanding of Proportion, Slope and Rate of Change
             </div>
-        </div>
-
-        <h3 class="subsection-title"><i class="fas fa-trophy"></i> Key Achievements</h3>
-        <ul class="achievements-list">
-            <li><strong>8th Place</strong> – Inter IIT Tech Meet 13th Edition (ISRO Problem Statement, IIT Bombay)</li>
-            <li><strong>Secured Top 15</strong> – Inspace Rocketry Competition (Ground Station SubSystem Lead)</li>
-            <li>Media and Publicity Head of Petrichor '25, the annual Technical and Cultural fest of IIT Palakkad.</li>
-        </ul>
-    </section>
-
-    <section class="section" id="experience">
-        <h2><i class="fas fa-briefcase"></i> Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Research Intern (DRDO: DYSL-CT)</h3>
-                    <p class="company">Defence Research and Development Organisation (DRDO), Chennai | May 2025 – Jul 2025</p>
-                    <ul>
-                        <li>Worked on Explainable AI techniques such as LIME, SHAP, and CAM.</li>
-                        <li>Developed CAM analysis software for neural network models and contributed to text classification systems for English and Indian languages.</li>
-                    </ul>
-                </div>
+            <div class="paper-authors">
+                Priyadharshni Elangaivendan, Chris John, Sruthi Kartha, Melwina Albuquerque, Shizuka Dara, Ashwin Ramaswamy, Vishwaa P S, <strong>Murali Karthick</strong>, Sreenath Karthick, Sanjay Chandrasekharan
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Software Intern (TIFR)</h3>
-                    <p class="company">Tata Institute of Fundamental Research, Palakkad | Feb 2025 – Present</p>
-                    <ul>
-                        <li>Contributing to an educational cognition project aimed at understanding children's thought processes in learning math concepts.</li>
-                        <li>Building software tools to enhance cognitive learning through web development.</li>
-                    </ul>
-                </div>
+            <div class="paper-venue">
+                International Conference on Computers in Education (ICCE) · 2025 · Asia-Pacific Society for Computers in Education
+            </div>
+            <div class="paper-links">
+                <a href="https://library.apsce.net/index.php/ICCE/article/view/6042/5972" target="_blank">
+                View Paper ↗
+                </a>
+            </div>
+            <p class="paper-description">
+                Presents a chained embodied learning system that helps students transition from proportion to slope and rate of change through coordinated physical interaction, spatial reasoning, and graphical understanding.
+            </p>
             </div>
         </div>
-    </section>
 
-    <section class="section" id="projects">
-        <h2><i class="fas fa-code"></i> Featured Projects</h2>
+    </div>
+  </section>
 
-        <div class="carousel-container">
-            <div class="carousel-slide">
-
-                <div class="project-card">
-                    <img src="images/graddog2.png" alt="PeliCAM Project">
-                    <div class="project-overlay">
-                        <h3>PeliCAM (DRDO:DYSL-CT)</h3>
-                        <p>A desktop application for visualizing model interpretability (CAM, LIME, SHAP). Built to help users understand and debug deep learning predictions.</p>
-                        <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://sreenathkarthick11.github.io/PeliCAM-web/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <p class="tools">Tools: Python, PyQt, PyTorch</p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/slope.jpg" alt="Slope Motion System Project">
-                    <div class="project-overlay">
-                        <h3>Slope Motion System (TIFR)</h3>
-                        <p>Contributing to an education cognition project to create tools to understand children's thought process in learning math concepts.</p>
-                        <a href="https://github.com/Murali47k/Slope_Motion_System" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://slope-motion-system-m2.onrender.com/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <p class="tools">Tools: Python, Javascript, HTML, CSS, Express</p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/moon.png" alt="Moon Mapping Project">
-                    <div class="project-overlay">
-                        <h3>Moon Mapping - ISRO Data Analysis</h3>
-                        <p>Performed advanced data analysis on XRF spectrum data, calculated line ratios, and visualized the results in an interactive lunar albedo map.</p>
-                        <p>(Inter IIT Problem Statement)</p>
-                        <a href="https://github.com/enchanteddev/MoonViewer" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                        <p class="tools">Tools: Python, Pandas, Numpy, Pyplot, ThreeJS</p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/sdss.jpg" alt="Stellar ML Project">
-                    <div class="project-overlay">
-                        <h3>Stellar ML</h3>
-                        <p>Developed a machine learning model for advanced stellar classification and analysis, utilizing large astronomical datasets. Applied state-of-the-art ML algorithms to predict stellar characteristics.</p>
-                        <a href="https://github.com/SreenathKarthick11/Stellar_ML" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://sreenathkarthick11.github.io/Stellar_ML/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <p class="tools">Tools: Python, Scikit-learn, TensorFlow, Astropy</p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/rocket2.jpeg" alt="Rocketry Ground Station Project">
-                    <div class="project-overlay">
-                        <h3>Rocketry - Ground Station </h3>
-                        <p>Created a Real-time Ground Station Control for a competition rocket. The system sends telemetry data from the rocket and visualizes it using a functional Python GUI (PyQt5).</p>
-                        <p>(Inspace rocketry Competetion)</p>
-                        <p class="tools">Tools: Python, PyQt5, Arduino, Esp32, Xbee</p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/a2qtgn.jpg" alt="A2QTGN Project">
-                    <div class="project-overlay">
-                        <h3>A2QTGN</h3>
-                        <p>Build a novel quantum-enhanced link prediction model using Adaptive Amplitude embedding with Temporal Graphical Neural Network (TGN) architecture to predict missing edges in complex graphs.</p>
-                        <p>(Open Ended Lab Project - Under NYU Dubai)</p>
-                        <p class="tools">Tools: Python, Pennylane, PyTorch, NetworkX</p>
-                    </div>
-                </div>
-
-                </div>
-            <button class="prev" aria-label="Previous Project">&#10094;</button>
-            <button class="next" aria-label="Next Project">&#10095;</button>
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <div class="section-label reveal">05 &nbsp;/&nbsp; Contact</div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2 class="section-heading">Open to<br/><em>collaboration.</em></h2>
+          <p class="contact-text">Looking to connect on research projects, internships, or anything at the edge of AI and systems. Reach out anytime.</p>
+          <div class="contact-details">
+            <a href="mailto:murali47karthick@gmail.com" class="contact-item">
+              <span class="contact-icon">✉</span>
+              <span>murali47karthick@gmail.com</span>
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon"></span>
+              <span>Kochi, Kerala · India</span>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <section class="section" id="skills">
-        <h2><i class="fas fa-tools"></i> Technical Skills</h2>
-
-        <h3 class="subsection-title">Programming Languages</h3>
-        <div class="skills-bar">
-            <span>C</span><span>Python</span><span>C++</span><span>JavaScript</span><span>Bash</span>
+        <div class="contact-right reveal">
+          <a href="https://www.linkedin.com/in/murali-karthick-59a250288/" target="_blank" class="social-card">
+            <span class="social-name">LinkedIn</span>
+            <span class="social-arrow">↗</span>
+          </a>
+          <a href="https://github.com/Murali47k" target="_blank" class="social-card">
+            <span class="social-name">GitHub</span>
+            <span class="social-arrow">↗</span>
+          </a>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <h3 class="subsection-title">AI/ML & Deep Learning</h3>
-        <div class="skills-bar">
-            <span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>OpenCV</span><span>Mediapipe</span>
-        </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Murali Karthick &nbsp;·&nbsp; IIT Palakkad &nbsp;·&nbsp; CS '27</span>
+      <span class="footer-right">Motivated by real-world challenges.</span>
+    </div>
+  </footer>
 
-        <h3 class="subsection-title">Data & Web</h3>
-        <div class="skills-bar">
-            <span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-
-        <h3 class="subsection-title">Hardware & Embedded Systems</h3>
-        <div class="skills-bar">
-            <span>Arduino</span><span>ESP32</span><span>XBee</span>
-        </div>
-    </section>
-
-    <section class="connect-section" id="connect">
-        <h2>Let's Connect!</h2>
-        <p>Motivated by real-world challenges, I aim to contribute to impactful projects and continuously expand my skills.</p>
-        <div class="contact-info">
-            <p><i class="fas fa-map-marker-alt"></i> Ernakulam, Kerala</p>
-            <p><i class="fas fa-phone-alt"></i> +91-9383457896</p>
-            <p><i class="fas fa-envelope"></i> <a href="mailto:murali47karthick@gmail.com">murali47karthick@gmail.com</a></p>
-        </div>
-        <div class="social-links-footer">
-            <a href="https://www.linkedin.com/in/murali-karthick-59a250288/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/Murali47k" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
