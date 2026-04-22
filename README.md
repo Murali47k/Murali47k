@@ -217,10 +217,10 @@ Real-world Chrome Dino game using **OpenCV** pose detection.
 
 ## Achievements
 
-- **8th Place** — Inter IIT Tech Meet  
+- **# 8** — Inter IIT Tech Meet  
   `ISRO Problem Statement · IIT Bombay` 
 
-- **Top 15** — InSpace Rocketry Competition  
+- **# 13** — InSpace Rocketry Competition  
   `ISRO · IN-SPACe · Astronomical Society of India` 
 
 ---
