@@ -141,7 +141,7 @@ Full compiler in **OCaml** — lexer → parser → type-checker → IR → **MI
 </td>
 <td width="50%" valign="top">
 
-### [Chess Platform](https://github.com/enchanteddev/MoonViewer)
+### [Chess Platform](https://github.com/iotaARYAN21/chess-project)
 Full-stack chess platform with real-time gameplay and persistent state.
 
 `React JS` `DBMS` `Postgres`
