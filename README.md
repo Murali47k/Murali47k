@@ -127,56 +127,85 @@ XRF spectroscopy pipeline on Chandrayaan mission data — producing lunar albedo
 
 ---
 
-## Course & Personal Projects
+## Course Projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [Tiger Compiler](https://gitlab.com/Murali47k/112301019-Compiler)
-Full compiler in **OCaml** — lexer → parser → type-checker → IR → **MIPS codegen**. The real deal.
+Full compiler in **OCaml** — lexer → parser → type-checker → IR → **MIPS codegen**.
 
 `OCaml` `Compilers` `MIPS`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### [Stellar ML](https://github.com/SreenathKarthick11/Stellar_ML)
-Classifying stars, galaxies & quasars from photometric data using ML pipelines.
+### [Chess Platform](https://github.com/enchanteddev/MoonViewer)
+Full-stack chess platform with real-time gameplay and persistent state.
 
-`ML` `Astronomy` `Python`
+`React JS` `DBMS` `Postgres`
 
 </td>
-<td width="33%" valign="top">
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Stellar ML](https://github.com/SreenathKarthick11/Stellar_ML)
+Classification of celestial objects using structured ML pipelines.
+
+`Machine Learning` `Astronomy` `Python`
+
+</td>
+<td width="50%" valign="top">
 
 ### [X-Ray Analyser](https://github.com/SreenathKarthick11/X_Ray_Analyser)
-CNN diagnostic tool for chest X-ray anomaly detection.
+CNN-based diagnostic tool for medical imaging analysis.
 
 `CNN` `Medical AI` `TensorFlow`
 
 </td>
 </tr>
+</table>
+
+---
+
+## Personal Projects
+
+<table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [Hi-ena](https://github.com/Murali47k/Hi-ena)
-Secure local-network P2P file sharing and messaging — no cloud, no dependencies.
+Secure peer-to-peer messaging and file transfer over local networks.
 
 `Networking` `Security` `Python`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [Voico-Bot](https://github.com/Murali47k/Voico-BOT)
-Voice-controlled automation bridging **Arduino** hardware + web interface.
+Voice-controlled automation system integrating **Arduino** and web interface.
 
 `IoT` `Arduino` `Voice AI`
 
 </td>
-<td width="33%" valign="top">
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Tourism Web](https://github.com/Murali47k/Tourism-Web)
+Interactive travel website with dynamic UI and structured content.
+
+`Frontend` `Web` `UI/UX`
+
+</td>
+<td width="50%" valign="top">
 
 ### [IRL Dino Game](https://github.com/Murali47k/DINO-GAME-IRL)
-You jump, the dino jumps. Real-world Chrome Dino via **OpenCV** pose detection.
+Real-world Chrome Dino game using **OpenCV** pose detection.
 
 `OpenCV` `Computer Vision` `Fun`
 
@@ -188,8 +217,11 @@ You jump, the dino jumps. Real-world Chrome Dino via **OpenCV** pose detection.
 
 ## Achievements
 
-#### 8th   —  Inter IIT Tech Meet (ISRO PS · IIT Bombay) 
-#### Top 15  —  InSpace Rocketry (ISRO · IN-SPACe · ASI)   
+- **8th Place** — Inter IIT Tech Meet  
+  `ISRO Problem Statement · IIT Bombay` 
+
+- **Top 15** — InSpace Rocketry Competition  
+  `ISRO · IN-SPACe · Astronomical Society of India` 
 
 ---
 
