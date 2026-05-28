@@ -196,10 +196,12 @@ Voice-controlled automation system integrating **Arduino** and web interface.
 <tr>
 <td width="50%" valign="top">
 
-### [Tourism Web](https://github.com/Murali47k/Tourism-Web)
-Interactive travel website with dynamic UI and structured content.
+### [RL Pong](https://github.com/Murali47k/RL_pong)
 
-`Frontend` `Web` `UI/UX`
+Pong environment featuring both **Deep Q-Networks** and **Tabular Q-Learning** implementations. Includes real-time training visualization &  reward shaping
+
+`Reinforcement Learning` `PyTorch` `Q-Learning` `Game AI`
+
 
 </td>
 <td width="50%" valign="top">
