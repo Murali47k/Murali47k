@@ -11,7 +11,7 @@
 
 ## `KARTHICK`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=CS+%40+IIT+Palakkad+%E2%80%94+Third+Year;Explainable+AI+%7C+Quantum+ML+%7C+Systems;DRDO+%C2%B7+TIFR+%C2%B7+NYU+Abu+Dhabi+Researcher;Building+at+the+edge+of+AI+%26+Deep+Tech" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=CS+%40+IIT+Palakkad+%E2%80%94+Final+Year;Explainable+AI+%7C+Quantum+ML+%7C+Systems;DRDO+%C2%B7+TIFR+%C2%B7+NYU+Abu+Dhabi+Researcher;Building+at+the+edge+of+AI+%26+Deep+Tech" alt="Typing SVG" />
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 <img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Murali47k&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7c3aed&text_color=637e9a&rank_icon=github" />
 
-Third-year CS student at IIT Palakkad, working at the intersection of **Explainable AI**, **Quantum Graph Neural Networks**, and **Cognitive Learning Systems**.
+Final-year CS student at IIT Palakkad, working at the intersection of **Explainable AI**, **Quantum Graph Neural Networks**, and **Cognitive Learning Systems**.
 
 Interned at **DRDO**, **TIFR**, and conducted research under **NYU Abu Dhabi** through the OELP program. Competed nationally in **ISRO** challenges.
 
