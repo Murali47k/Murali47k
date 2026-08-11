@@ -206,8 +206,10 @@ Pong environment featuring both **Deep Q-Networks** and **Tabular Q-Learning** i
 </td>
 <td width="50%" valign="top">
 
-### [IRL Dino Game](https://github.com/Murali47k/DINO-GAME-IRL)
-Real-world Chrome Dino game using **OpenCV** pose detection.
+### [NIBLEGIBLEGAMES](https://github.com/Murali47k/NibleGibleGames)
+Wacky fun games which no one asked for to be created
+
+[To Play](https://niblegiblegames.onrender.com/)
 
 `OpenCV` `Computer Vision` `Fun`
 
