@@ -27,217 +27,33 @@
 
 Final-year CS student at IIT Palakkad, working at the intersection of **Explainable AI**, **Quantum Graph Neural Networks**, and **Cognitive Learning Systems**.
 
-Interned at **DRDO**, **TIFR**, and conducted research under **NYU Abu Dhabi** through the OELP program. Competed nationally in **ISRO** challenges.
+Interned at **TCS Research**, **DRDO**, **TIFR**, and conducted research under **NYU Abu Dhabi** through the OELP program. Competed nationally in **ISRO** challenges.
 
 Obsessed with building systems that are not just functional — but *understandable*.
 
 
 <br clear="right"/>
 
----
 
-## Tech Stack
 
 <div align="center">
-
-**Languages**
 
 ![C](https://img.shields.io/badge/C-1f425f?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-004482?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-2b5d84?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-2d2d2d?style=flat-square&logo=javascript&logoColor=f0db4f)
 ![OCaml](https://img.shields.io/badge/OCaml-ef7a08?style=flat-square&logo=ocaml&logoColor=white)
-
-**AI / ML**
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-bf2c1f?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-d35400?style=flat-square&logo=tensorflow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=opencv&logoColor=white)
 ![Scikit--Learn](https://img.shields.io/badge/sklearn-f89820?style=flat-square&logo=scikit-learn&logoColor=white)
-
-**Tools & Systems**
-
 ![Linux](https://img.shields.io/badge/Linux-444444?style=flat-square&logo=linux&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-008184?style=flat-square&logo=arduino&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
----
 
-## Research & Advanced Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [PeliCAM](https://github.com/SreenathKarthick11/PeliCAM)
-> **DRDO Internship**
-
-Explainable AI framework unifying **CAM + LIME + SHAP** attribution techniques. Built to make neural network decisions legible to domain experts.
-
-`XAI` `Python` `PyTorch` `Visualization`
-
-</td>
-<td width="50%" valign="top">
-
-### [Slope Motion System](https://github.com/Murali47k/Slope_Motion_System)
-> **TIFR Internship**
-
-Cognitive learning platform using motion-based feedback to bridge conceptual gaps in physics education. 
-
-`EdTech` `Cognitive Science` `Python`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Quantum ML · Link Prediction](https://github.com/Simeonk1307/quantumML)
-> **NYU Abu Dhabi · OELP**
-
-Quantum-enhanced graph neural networks for link prediction in complex networks. Exploring where quantum computing meets graph theory.
-
-`Quantum Computing` `GNN` `Research`
-
-</td>
-<td width="50%" valign="top">
-
-### [Post-Quantum Cryptography](https://github.com/Simeonk1307/Post-Quantum-Cryptography)
-> **OELP Project**
-
-Full implementation of the **NewHope** lattice-based key exchange — hardened against quantum adversaries.
-
-`Cryptography` `Lattice Math` `C`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### [Moon Mapping · ISRO Data](https://github.com/enchanteddev/MoonViewer)
-
-XRF spectroscopy pipeline on Chandrayaan mission data — producing lunar albedo maps and surface composition visualizations.
-
-`Space Tech` `Data Analysis` `ISRO` `Visualization`
-
-</td>
-</tr>
-</table>
-
----
-
-## Course Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Tiger Compiler](https://gitlab.com/Murali47k/112301019-Compiler)
-Full compiler in **OCaml** — lexer → parser → type-checker → IR → **MIPS codegen**.
-
-`OCaml` `Compilers` `MIPS`
-
-</td>
-<td width="50%" valign="top">
-
-### [Chess Platform](https://github.com/iotaARYAN21/chess-project)
-Full-stack chess platform with real-time gameplay and persistent state.
-
-`React JS` `DBMS` `Postgres`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [Stellar ML](https://github.com/SreenathKarthick11/Stellar_ML)
-Classification of celestial objects using structured ML pipelines.
-
-`Machine Learning` `Astronomy` `Python`
-
-</td>
-<td width="50%" valign="top">
-
-### [X-Ray Analyser](https://github.com/SreenathKarthick11/X_Ray_Analyser)
-CNN-based diagnostic tool for medical imaging analysis.
-
-`CNN` `Medical AI` `TensorFlow`
-
-</td>
-</tr>
-</table>
-
----
-
-## Personal Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Hi-ena](https://github.com/Murali47k/Hi-ena)
-Secure peer-to-peer messaging and file transfer over local networks.
-
-`Networking` `Security` `Python`
-
-</td>
-<td width="50%" valign="top">
-
-### [Voico-Bot](https://github.com/Murali47k/Voico-BOT)
-Voice-controlled automation system integrating **Arduino** and web interface.
-
-`IoT` `Arduino` `Voice AI`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [RL Pong](https://github.com/Murali47k/RL_pong)
-
-Pong environment featuring both **Deep Q-Networks** and **Tabular Q-Learning** implementations. Includes real-time training visualization &  reward shaping
-
-`Reinforcement Learning` `PyTorch` `Q-Learning` `Game AI`
-
-
-</td>
-<td width="50%" valign="top">
-
-### [NIBLEGIBLEGAMES](https://github.com/Murali47k/NibleGibleGames)
-Wacky fun games which no one asked for to be created
-
-[To Play](https://niblegiblegames.onrender.com/)
-
-`OpenCV` `Computer Vision` `Fun`
-
-</td>
-</tr>
-</table>
-
----
-
-## Achievements
-
-- **# 8** — Inter IIT Tech Meet  
-  `ISRO Problem Statement · IIT Bombay` 
-
-- **# 13** — InSpace Rocketry Competition  
-  `ISRO · IN-SPACe · Astronomical Society of India` 
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Murali47k&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=637e9a"/>
-
-<img width="480" src="https://github-readme-streak-stats.herokuapp.com/?user=Murali47k&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e2d3d&ring=00d4ff&fire=7c3aed&currStreakLabel=00d4ff"/>
-
-</div>
 
 ---
 
