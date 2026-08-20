@@ -1,15 +1,6 @@
 <div align="center">
 
-```
-███╗   ███╗██╗   ██╗██████╗  █████╗ ██╗     ██╗
-████╗ ████║██║   ██║██╔══██╗██╔══██╗██║     ██║
-██╔████╔██║██║   ██║██████╔╝███████║██║     ██║
-██║╚██╔╝██║██║   ██║██╔══██╗██╔══██║██║     ██║
-██║ ╚═╝ ██║╚██████╔╝██║  ██║██║  ██║███████╗██║
-╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
-```
-
-## `KARTHICK`
+# `M Murali Karthick`
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=CS+%40+IIT+Palakkad+%E2%80%94+Final+Year;Explainable+AI+%7C+Quantum+ML+%7C+Systems;DRDO+%C2%B7+TIFR+%C2%B7+NYU+Abu+Dhabi+Researcher;Building+at+the+edge+of+AI+%26+Deep+Tech" alt="Typing SVG" />
 
