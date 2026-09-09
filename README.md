@@ -14,8 +14,6 @@
 
 <br/>
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Murali47k&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7c3aed&text_color=637e9a&rank_icon=github" />
-
 Final-year CS student at IIT Palakkad, working at the intersection of **Explainable AI**, **Quantum Graph Neural Networks**, and **Cognitive Learning Systems**.
 
 Interned at **TCS Research**, **DRDO**, **TIFR**, and conducted research under **NYU Abu Dhabi** through the OELP program. Competed nationally in **ISRO** challenges.
